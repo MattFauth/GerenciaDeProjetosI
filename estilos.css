@@ -1,0 +1,118 @@
+body, html {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+	background-color: lightgray;
+	display: grid;
+}
+
+table{
+	text-align: center;
+	border: 1.5px, solid, black;
+	border-collapse: collapse;
+	border-spacing: 25px, 50px;
+	margin: auto;
+	width: 75%;
+	margin: auto;
+}
+
+.td-importante{
+	background-color: orange;
+	text-align: center;
+	letter-spacing: 1px;
+	align-content: center;
+}
+
+h1{
+	font-weight: bold;
+	background-color: ivory;
+	color: steelblue;
+	font-size: 2rem;
+	padding: .35rem;
+	text-align: center;
+	border: .35rem hidden red;
+	border-radius: 25px;
+	box-shadow: 3px 1px 3px grey;
+	text-shadow: 5px 5px 7px lightblue;
+	width: 95%;
+	border-width: 95%;
+}
+
+button{
+	width: 25%;
+	border: .5rem ;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 1rem;
+	color: black;
+	background-color: burlywood;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+	transition: transform 1s;
+}
+
+button:hover{
+	background-color: dodgerblue;
+	transform: scale(1.1);
+}
+
+.button-td-confirm{
+	border: .75rem;
+	border-radius: 100px;
+	text-align: center;
+	font-size: .8rem;
+	background-color: khaki;
+	color: green;
+	margin: 10px;
+	transition: transform 2s;
+}
+
+.button-td-confirm:hover{
+	background-color: lightgreen;
+	transform: scale(1.7);
+}
+
+.button-td-cancel{
+	border: .75rem;
+	border-radius: 100px;
+	text-align: center;
+	font-size: .8rem;
+	background-color: khaki;
+	color: red;
+	margin: 10px;
+	transition: transform 2s;
+}
+
+.button-td-cancel:hover{
+	background-color: lightcoral;
+	transform: scale(1.7);
+}
+
+input{
+	width: 500px;
+	height: 30px;
+	font-size: 18pt;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border-color: grey;
+	transition: transform 1s;
+	margin-bottom: 20px;
+	width: 75%;
+}
+
+input:hover{
+	transform: scale(1.7);
+}
+
+#container{
+	display: block;
+	margin: auto;
+	width: 40%;
+	align-self: center;
+	border: 1px hidden;
+	border-radius: 25px;
+	box-shadow: 8px 8px 10px black;
+	background-color: ivory;
+	padding-bottom: 20px;
+}

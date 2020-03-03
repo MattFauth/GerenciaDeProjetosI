@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Gerenciador de tarefas</title>
+		<link href="estilos.css" rel="stylesheet" type="text/css">
+		<script src="funcoesBase.js"></script>
+	</head>
+	<body onload="verificaStorage()">
+		<div id="container">
+			<h1 id="h1">Gerenciador de tarefas</h1>
+			<div>
+				<form id="forme_ini" onsubmit="return false">
+					<div>
+					<input id="input" class="input-field" placeholder=" Adicionar tarefa" type="text" id="tarefa" name="tarefa" required>
+					</div>
+					<button id="botao" onclick="addInfo()">Salvar</button>
+					<button id="botao2" onclick="resetdata()">Limpar lista</button>
+				</form>
+			</div>
+			<br>
+			<div>
+				<table id="tabela" border="1">
+					<tr class="tr">
+						<td class="td-importante">Data</td>
+						<td class="td-importante">Tarefa</td>
+						<td colspan="2" class="td-importante">Concluída</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
